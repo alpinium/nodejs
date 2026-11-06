@@ -1,0 +1,31 @@
+nodejs_versions:
+  'v22':
+    nodejs:
+      version: 'v22.23.4'
+    debian:
+      - 'bookworm'
+      - 'trixie'
+    packages:
+      'npm': '12.2.2'
+      'tsx': '4.23.15'
+      '@types/node': '26.6.6'
+  'v24':
+    nodejs:
+      version: 'v24.22.2'
+    debian:
+      - 'bookworm'
+      - 'trixie'
+    packages:
+      'npm': '12.2.2'
+      'tsx': '4.23.15'
+      '@types/node': '26.6.6'
+  'v26':
+    nodejs:
+      version: 'v26.13.0'
+    debian:
+      - 'bookworm'
+      - 'trixie'
+    packages:
+      'npm': '12.2.2'
+      'tsx': '4.23.15'
+      '@types/node': '26.6.6'
